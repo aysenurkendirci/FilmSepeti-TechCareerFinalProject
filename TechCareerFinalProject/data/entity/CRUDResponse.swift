@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import Foundation
+
+struct CRUDResponse: Codable {
+    let success: Int
+    let message: String
+}

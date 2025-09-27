@@ -6,3 +6,8 @@
 //
 
 import Foundation
+import Foundation
+
+struct CartListResponse: Codable {
+    let movie_cart: [CartItem]?
+}
